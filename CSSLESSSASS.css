@@ -1,0 +1,32 @@
+
+/*CSS*/
+body {
+    background-color : rgb(255, 0, 0);
+    color : rgb(255, 255, 0);
+    font-size : 20px;
+}
+
+
+
+/*SASS*/
+$bgcolor : rgb(255, 0, 0);
+$textcolor : rgb(255, 255, 0);
+$fontsize : 20px;
+
+body {
+    background-color : $bgcolor;
+    color : $textcolor;
+    font-size : $fontsize;
+}
+
+
+
+/*LESS*/
+@color-red : #FF0000
+@color-yellow : #FFFF00
+
+body {
+    background-color: @color-red;
+    color : @color-yellow;
+    font-size ; 20px
+}
